@@ -9,7 +9,7 @@ skinparam rectangle {
 }
 
 ' Grandparents
-rectangle "Mhenni Gari\n(1920-1990)" as John
+rectangle "Mhenni Gari\n(1905-1990)" as John
 rectangle "Mary Johnson\n(1922-2001)" as Mary
 
 ' Parents
