@@ -1,0 +1,80 @@
+@startuml
+' Family Arborescence Example
+
+skinparam defaultFontName Arial
+skinparam rectangle {
+  BackgroundColor #FDF6E3
+  BorderColor #657B83
+  FontColor #586E75
+}
+
+' Grandparents
+rectangle "John Smith\n(1920-1990)" as John
+rectangle "Mary Johnson\n(1922-2001)" as Mary
+
+' Parents
+rectangle "Robert Smith\n(1945-2010)" as Robert
+rectangle "Linda Brown\n(1947-)" as Linda
+rectangle "Susan Smith\n(1950-)" as Susan
+rectangle "Michael White\n(1948-)" as Michael
+
+' Children
+rectangle "David Smith\n(1970-)" as David
+rectangle "Emma Smith\n(1972-)" as Emma
+rectangle "James Smith\n(1975-)" as James
+rectangle "Olivia Smith\n(1978-)" as Olivia
+
+' Spouses of children
+rectangle "Sarah Miller\n(1971-)" as Sarah
+rectangle "Paul Green\n(1970-)" as Paul
+rectangle "Anna Black\n(1976-)" as Anna
+rectangle "Mark Lee\n(1977-)" as Mark
+
+' Grandchildren
+rectangle "Lucas Smith\n(1995-)" as Lucas
+rectangle "Sophia Smith\n(1998-)" as Sophia
+rectangle "Ethan Green\n(2000-)" as Ethan
+rectangle "Mia Green\n(2003-)" as Mia
+rectangle "Noah Smith\n(2005-)" as Noah
+rectangle "Lily Smith\n(2008-)" as Lily
+
+' Relationships
+John -- Mary
+John -- Robert
+Mary -- Susan
+
+Robert -- Linda
+Susan -- Michael
+
+Robert -- David
+Robert -- Emma
+Linda -- David
+Linda -- Emma
+
+Susan -- James
+Susan -- Olivia
+Michael -- James
+Michael -- Olivia
+
+David -- Sarah
+Emma -- Paul
+James -- Anna
+Olivia -- Mark
+
+David -- Lucas
+David -- Sophia
+Sarah -- Lucas
+Sarah -- Sophia
+
+Emma -- Ethan
+Emma -- Mia
+Paul -- Ethan
+Paul -- Mia
+
+James -- Noah
+Anna -- Noah
+
+Olivia -- Lily
+Mark -- Lily
+
+@enduml
