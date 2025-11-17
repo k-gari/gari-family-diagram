@@ -1,0 +1,12 @@
+{
+  "persons": [
+    { "id": "P1", "name": "Jean Dupont", "birth": "1950-03-12" },
+    { "id": "P2", "name": "Anne Martin", "birth": "1955-07-03" },
+    { "id": "P3", "name": "Paul Dupont", "birth": "1980-09-11" }
+  ],
+  "relationships": [
+    { "type": "couple", "person1": "P1", "person2": "P2" },
+    { "type": "parent", "parent": "P1", "child": "P3" },
+    { "type": "parent", "parent": "P2", "child": "P3" }
+  ]
+}
