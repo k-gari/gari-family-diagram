@@ -2,8 +2,8 @@
   {
     "id": "slimen_gari",
     "data": {
-      "fn": "slimen",
-      "ln": "gari",
+      "first name": "slimen",
+      "last name": "gari",
       "desc": "",
       "label": "",
       "image": null,
@@ -17,8 +17,8 @@
   {
     "id": "meska_bouhstine",
     "data": {
-      "fn": "meska",
-      "ln": "bouhstine",
+      "first name": "meska",
+      "last name": "bouhstine",
       "desc": "",
       "label": "",
       "avatar": "",
@@ -32,8 +32,8 @@
   {
     "id": "laroussi_gari",
     "data": {
-      "fn": "Laroussi",
-      "ln": "Gari",
+      "first name": "Laroussi",
+      "last name": "Gari",
       "desc": "1953-",
       "label": "",
       "avatar": "",
@@ -54,8 +54,8 @@
   {
     "id": "rachida_gari",
     "data": {
-      "fn": "Rachida",
-      "ln": "Gari",
+      "first name": "Rachida",
+      "last name": "Gari",
       "desc": "",
       "label": "",
       "avatar": "",
@@ -69,8 +69,8 @@
   {
     "id": "yasmina_TODO",
     "data": {
-      "fn": "Yasmina",
-      "ln": "TODO",
+      "first name": "Yasmina",
+      "last name": "TODO",
       "desc": "",
       "label": "",
       "avatar": "",
@@ -84,8 +84,8 @@
   {
     "id": "jihen_gari",
     "data": {
-      "fn": "Jihen",
-      "ln": "Gari",
+      "first name": "Jihen",
+      "last name": "Gari",
       "desc": "1983-",
       "label": "",
       "avatar": "",
@@ -98,8 +98,8 @@
   {
     "id": "walid_gari",
     "data": {
-      "fn": "Walid",
-      "ln": "Gari",
+      "first name": "Walid",
+      "last name": "Gari",
       "desc": "1985-",
       "label": "",
       "avatar": "",
@@ -114,8 +114,8 @@
   {
     "id": "nesrine_gari",
     "data": {
-      "fn": "Nesrine",
-      "ln": "Gari",
+      "first name": "Nesrine",
+      "last name": "Gari",
       "desc": "1990-",
       "label": "",
       "avatar": "",
@@ -130,8 +130,8 @@
   {
     "id": "khaled_gari",
     "data": {
-      "fn": "Khaled",
-      "ln": "Gari",
+      "first name": "Khaled",
+      "last name": "Gari",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -144,8 +144,8 @@
   {
     "id": "mohamed_huerguel",
     "data": {
-      "fn": "Mohamed",
-      "ln": "Huergel",
+      "first name": "Mohamed",
+      "last name": "Huergel",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -153,15 +153,15 @@
     },
     "rels": {
       "parents": [],
-      "children": ["aziz_huergel"],
+      "children": ["aziz_huergel", "ghali_huergel", "jouri_huergel"],
       "spouses": ["nesrine_gari"]
     }
   },
   {
     "id": "aziz_huergel",
     "data": {
-      "fn": "Aziz",
-      "ln": "Huergel",
+      "first name": "Aziz",
+      "last name": "Huergel",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -174,8 +174,8 @@
   {
     "id": "ghali_huergel",
     "data": {
-      "fn": "Ghali",
-      "ln": "Huergel",
+      "first name": "Ghali",
+      "last name": "Huergel",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -188,8 +188,8 @@
   {
     "id": "jouri_huergel",
     "data": {
-      "fn": "Jouri",
-      "ln": "Huergel",
+      "first name": "Jouri",
+      "last name": "Huergel",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -202,8 +202,8 @@
   {
     "id": "wejden_khaloui",
     "data": {
-      "fn": "Wejden",
-      "ln": "Khaloui",
+      "first name": "Wejden",
+      "last name": "Khaloui",
       "desc": "1992-",
       "label": "",
       "avatar": "",
@@ -217,8 +217,8 @@
   {
     "id": "hamza_gari",
     "data": {
-      "fn": "Hamza",
-      "ln": "Gari",
+      "first name": "Hamza",
+      "last name": "Gari",
       "desc": "2015-",
       "label": "",
       "avatar": "",
@@ -231,8 +231,8 @@
   {
     "id": "ahmed_gari",
     "data": {
-      "fn": "Ahmed",
-      "ln": "Gari",
+      "first name": "Ahmed",
+      "last name": "Gari",
       "desc": "2017-",
       "label": "",
       "avatar": "",
@@ -245,8 +245,8 @@
   {
     "id": "joud_gari",
     "data": {
-      "fn": "Joud",
-      "ln": "Gari",
+      "first name": "Joud",
+      "last name": "Gari",
       "desc": "2020-",
       "label": "",
       "avatar": "",
