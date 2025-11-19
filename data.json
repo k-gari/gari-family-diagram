@@ -41,7 +41,13 @@
     },
     "rels": {
       "spouses": ["rachida_gari", "yasmina_TODO"],
-      "children": ["jihen_gari", "walid_gari", "nesrine_gari", "khaled_gari","test_test"],
+      "children": [
+        "jihen_gari",
+        "walid_gari",
+        "nesrine_gari",
+        "khaled_gari",
+        "test_test"
+      ],
       "parents": ["slimen_gari", "meska_bouhstine"]
     }
   },
@@ -100,7 +106,9 @@
       "gender": "M"
     },
     "rels": {
-      "parents": ["laroussi_gari", "rachida_gari"]
+      "parents": ["laroussi_gari", "rachida_gari"],
+      "spouses": ["wejden_khaloui"],
+      "children": ["hamza_gari", "ahmed_gari", "joud_gari"]
     }
   },
   {
@@ -114,7 +122,9 @@
       "gender": "F"
     },
     "rels": {
-      "parents": ["laroussi_gari", "rachida_gari"]
+      "parents": ["laroussi_gari", "rachida_gari"],
+      "spouses": ["mohamed_huerguel"],
+      "children": ["aziz_huergel", "ghali_huergel", "jouri_huergel"]
     }
   },
   {
@@ -132,17 +142,118 @@
     }
   },
   {
-    "id": "test_test",
+    "id": "mohamed_huerguel",
     "data": {
-      "fn": "test",
-      "ln": "test",
-      "desc": "1994-",
+      "fn": "Mohamed",
+      "ln": "Huergel",
+      "desc": "1992-",
       "label": "",
       "avatar": "",
       "gender": "M"
     },
     "rels": {
-      "parents": ["laroussi_gari", "yasmina_TODO"]
+      "parents": [],
+      "children": ["aziz_huergel"],
+      "spouses": ["nesrine_gari"]
+    }
+  },
+  {
+    "id": "aziz_huergel",
+    "data": {
+      "fn": "Aziz",
+      "ln": "Huergel",
+      "desc": "1992-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["mohamed_huerguel", "nesrine_gari"]
+    }
+  },
+  {
+    "id": "ghali_huergel",
+    "data": {
+      "fn": "Ghali",
+      "ln": "Huergel",
+      "desc": "1992-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["mohamed_huerguel", "nesrine_gari"]
+    }
+  },
+  {
+    "id": "jouri_huergel",
+    "data": {
+      "fn": "Jouri",
+      "ln": "Huergel",
+      "desc": "1992-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["mohamed_huerguel", "nesrine_gari"]
+    }
+  },
+  {
+    "id": "wejden_khaloui",
+    "data": {
+      "fn": "Wejden",
+      "ln": "Khaloui",
+      "desc": "1992-",
+      "label": "",
+      "avatar": "",
+      "gender": "F"
+    },
+    "rels": {
+      "children": ["hamza_gari", "ahmed_gari", "joud_gari"],
+      "spouses": ["walid_gari"]
+    }
+  },
+  {
+    "id": "hamza_gari",
+    "data": {
+      "fn": "Hamza",
+      "ln": "Gari",
+      "desc": "2015-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["walid_gari", "wejden_khaloui"]
+    }
+  },
+  {
+    "id": "ahmed_gari",
+    "data": {
+      "fn": "Ahmed",
+      "ln": "Gari",
+      "desc": "2017-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["walid_gari", "wejden_khaloui"]
+    }
+  },
+  {
+    "id": "joud_gari",
+    "data": {
+      "fn": "Joud",
+      "ln": "Gari",
+      "desc": "2020-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["walid_gari", "wejden_khaloui"]
     }
   }
 ]
