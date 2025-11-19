@@ -2,7 +2,7 @@ import * as d3 from 'd3';  // npm install d3 or yarn add d3
 import * as f3 from 'family-chart';  // npm install family-chart@0.9.0 or yarn add family-chart@0.9.0
 import 'family-chart/styles/family-chart.css';
 
-fetch('https://donatso.github.io/family-chart-doc/data/data-aristotle.json')
+fetch('./data.json')
   .then(res => res.json())
   .then(data => create(data))
   .catch(err => console.error(err))
