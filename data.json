@@ -41,7 +41,7 @@
     },
     "rels": {
       "spouses": ["rachida_gari", "yasmina_TODO"],
-      "children": ["jihen_gari", "walid_gari", "nesrine_gari", "khaled_gari"],
+      "children": ["jihen_gari", "walid_gari", "nesrine_gari", "khaled_gari","test_test"],
       "parents": ["slimen_gari", "meska_bouhstine"]
     }
   },
@@ -72,7 +72,7 @@
     },
     "rels": {
       "spouses": ["laroussi_gari"],
-      "children": []
+      "children": ["test_test"]
     }
   },
   {
