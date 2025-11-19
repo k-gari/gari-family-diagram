@@ -54,6 +54,10 @@
       "label": "",
       "avatar": "",
       "gender": "F"
+    },
+    "rels": {
+      "spouses": ["laroussi_gari"],
+      "children": ["jihen_gari", "walid_gari", "nesrine_gari", "khaled_gari"]
     }
   },
   {
@@ -65,6 +69,10 @@
       "label": "",
       "avatar": "",
       "gender": "F"
+    },
+    "rels": {
+      "spouses": ["laroussi_gari"],
+      "children": []
     }
   },
   {
@@ -76,6 +84,9 @@
       "label": "",
       "avatar": "",
       "gender": "F"
+    },
+    "rels": {
+      "parents": ["laroussi_gari", "rachida_gari"]
     }
   },
   {
@@ -87,6 +98,9 @@
       "label": "",
       "avatar": "",
       "gender": "M"
+    },
+    "rels": {
+      "parents": ["laroussi_gari", "rachida_gari"]
     }
   },
   {
@@ -98,6 +112,9 @@
       "label": "",
       "avatar": "",
       "gender": "F"
+    },
+    "rels": {
+      "parents": ["laroussi_gari", "rachida_gari"]
     }
   },
   {
@@ -109,6 +126,9 @@
       "label": "",
       "avatar": "",
       "gender": "M"
+    },
+    "rels": {
+      "parents": ["laroussi_gari", "rachida_gari"]
     }
   }
 ]
