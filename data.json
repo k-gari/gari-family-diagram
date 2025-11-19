@@ -130,5 +130,19 @@
     "rels": {
       "parents": ["laroussi_gari", "rachida_gari"]
     }
+  },
+  {
+    "id": "test_test",
+    "data": {
+      "fn": "test",
+      "ln": "test",
+      "desc": "1994-",
+      "label": "",
+      "avatar": "",
+      "gender": "M"
+    },
+    "rels": {
+      "parents": ["laroussi_gari", "yasmina_TODO"]
+    }
   }
 ]
